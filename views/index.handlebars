@@ -1,0 +1,28 @@
+<h1>Burgers</h1>
+
+<h2>burgers Ordered</h2>
+
+<ul>
+{{#each burgers}}
+{{#unless devoured}}
+{{burgers devoured=true}}
+{{/unless}}
+{{/each}}
+</ul>
+
+<h2>Burgers devaoured</h2>
+<ul>
+{{#each burgers}}
+{{#unless devoured}}
+{{burgers devoured=false}}
+{{/unless}}
+{{/each}}
+</ul>
+
+<form>
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit">Add Burger</button>
+</form>
