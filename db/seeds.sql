@@ -1,4 +1,4 @@
-INSERT INTO (name, devoured)
-VALUES ("Krabby Patty", "true")
-		("CHicken Al Rancho", "true")
-		("Beef Master", "true")_
+INSERT INTO burgers (name, devoured)
+VALUES ("Krabby Patty", true);
+		("CHicken Al Rancho", false);
+		("Beef Master", true)
