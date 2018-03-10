@@ -6,13 +6,6 @@ var connection = require("../config/connection.js");
 // In order to write the query, we need 3 question marks.
 // The above helper function loops through and creates an array of question marks - ["?", "?", "?"] - and turns it into a string.
 // ["?", "?", "?"].toString() => "?,?,?";
-
-
-// selectAll()
-// insertOne()
-// updateOne()
-////////////////////////////////////////////////////
-
 function printQuestionMarks(num) {
   var arr = [];
 
@@ -94,8 +87,7 @@ var orm = {
 
       cb(result);
     });
-  }
-  ,
+  },
   delete: function(table, condition, cb) {
     var queryString = "DELETE FROM " + table;
     queryString += " WHERE ";
@@ -111,5 +103,5 @@ var orm = {
   }
 };
 
-// Export the orm object for the model (cat.js).
+// Export the orm object for the model (burger.js).
 module.exports = orm;
