@@ -5,3 +5,49 @@
 .burger-content {
     padding: 10%
 }
+
+.included {
+    padding: 2%;
+    margin: 5%;
+    background:#f8f9fa;
+    color: #32383e;
+}
+ul {
+    padding: 0;
+    list-style: none
+}
+.eaten {
+    background:#f8f9fa;
+    color: #a7a7a7cc;
+    margin: 5%;
+    padding: 2%
+
+}
+
+/* .eaten eatid {
+    padding-left: 2%
+}
+
+.eaten eatname {
+    text-align: center;
+} */
+
+.hndlbody {
+    background-color: #ffc107;
+}
+
+.burg-head {
+    color: firebrick;
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-right: 10px
+
+}
+
+#catimg {
+    height: 33%;
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%
+}
