@@ -1,2 +1,2 @@
 # Burger App
-![Burger App]("./public/views/assets/screenshot.png")
+![Burger App]("public/views/assets/screenshot.png")
